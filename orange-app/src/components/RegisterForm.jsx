@@ -11,7 +11,7 @@ function RegisterForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle form submission logic here
+    // implementar logica igual login
     console.log('Form submitted');
   };
 
@@ -22,6 +22,12 @@ function RegisterForm() {
     <form id="Register-form-container" className={styles.form}>
       <img src="/assets/logo.png" alt="Logo" className={styles.logo} />      
       <div id="Register-inputs" className={styles.inputsContainer}>
+
+        <label htmlFor="email" className={styles.label}>Nome</label>
+        <div className={styles.inputWrapper}>
+          <input id="nome" type="text" required placeholder="Seunome" className={styles.input} />
+          <img src="/assets/mail.png" alt="nome" className={styles.icon} />
+        </div>
         
         <label htmlFor="email" className={styles.label}>Email</label>
         <div className={styles.inputWrapper}>
@@ -36,15 +42,8 @@ function RegisterForm() {
           <img src="/assets/lock.png" alt="cadeado" className={styles.icon} />
         </div>
 
-        <label htmlFor="password" className={styles.label}>Confirm Password</label>
-        <div className={styles.inputWrapper}>
-          {/* se a const 'showPassword == true', o input vira text*/}
-          <input id="password" type={showPassword ? "text" : "password"} required placeholder="Password" className={styles.input} />
-          <img src="/assets/lock.png" alt="cadeado" className={styles.icon} />
-        </div>
-
         <div className={styles.showPasswordContainer}>
-          {/* ao clicar no button muda o valor de 'showPassword' */}
+          {/* ao clicar no button muda o 'valor' de 'showPassword' */}
           <button
             type="button"
             className={`${styles.showPasswordButton} ${showPassword ? styles.active : ''}`}
