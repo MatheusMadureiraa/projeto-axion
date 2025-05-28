@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como parte de um processo seletivo. Consiste em um
 
 ### ⚙️ `Back-end - API Strapi (axion-test)`
 
-1.  **Descompacte** a pasta zipada `axion-test.zip`.
+1.  Descompacte a pasta zipada `axion-test.zip`.
 2.  Abra um terminal e navegue até a pasta `axion-test` descompactada.
 3.  Rode os seguintes comandos:
 
@@ -33,9 +33,9 @@ Este projeto foi desenvolvido como parte de um processo seletivo. Consiste em um
     ```
     Se tudo der certo, a API Strapi estará rodando em `http://localhost:1337`. O banco de dados SQLite (`.tmp/data.db`) já está incluído com os dados e o usuário de teste.
 
-    **Usuário de Teste para Login no Frontend:**
-    * **Email/Usuário:** `teste@email.com` (ou o que você criou)
-    * **Senha:** `Senha123` (ou a que você criou)
+### ⚠️ **Usuário de Teste para Login no Frontend:**
+    * **Email/Usuário:** `teste@teste.com`
+    * **Senha:** `Teste123`
 
 
 ### 🖥️ `Front-end - Next.js (orange-app)`
@@ -54,7 +54,7 @@ Este projeto foi desenvolvido como parte de um processo seletivo. Consiste em um
     ```bash
     npm run dev
     ```
-    *(Observação: Se houver algum problema estranho ao iniciar, às vezes excluir a pasta `.next` e rodar `npm run dev` novamente pode ajudar a limpar o cache de build, aconteceu bastante cmg).*
+    *(Observação: Se houver algum problema estranho ao iniciar, excluir a pasta `.next` e rodar `npm run dev` novamente pode ajudar, aconteceu bastante cmg).*
 
 O frontend estará  em `http://localhost:3000`.
 
@@ -69,12 +69,10 @@ O frontend estará  em `http://localhost:3000`.
 - VSCode -> IDE
 
 ## 📚 Documentação Criada para Desenvolvimento Ágil
-> Clique no tópico que deseja ver os detalhes para acessar a documentação (os links abaixo são exemplos, aponte para seus arquivos reais se os tiver no repositório).
-
+> Clique no tópico que deseja ver os detalhes para acessar a documentação
 1. [Planejamento de *tasks* a serem realizadas dentro do tempo](./docs-backlog/tasks-plan.md)
 2. [Requisitos levantados com priorização](./docs-backlog/requisitos.md)
-3. [Quadro Kanban](./docs-backlog/kanban.md)
-4. [Testes p/ garantir funcionamento da API](./docs-backlog/testes.md)
+3. [Testes p/ garantir funcionamento da API](./docs-backlog/testes.md)
 
 ## ✨ Melhorias Adicionadas
 - Documentação da API com exemplos de uso no Insomnia.
