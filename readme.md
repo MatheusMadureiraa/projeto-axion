@@ -33,9 +33,9 @@ Este projeto foi desenvolvido como parte de um processo seletivo. Consiste em um
     ```
     Se tudo der certo, a API Strapi estará rodando em `http://localhost:1337`. O banco de dados SQLite (`.tmp/data.db`) já está incluído com os dados e o usuário de teste.
 
-### ⚠️ **Usuário de Teste para Login no Frontend:**
-    * **Email/Usuário:** `teste@teste.com`
-    * **Senha:** `Teste123`
+### ⚠️ **Usuário para logar no Strapi localmente:**
+    * **Email/Usuário:** `axioner@axion.company`
+    * **Senha:** `Axioner123`
 
 
 ### 🖥️ `Front-end - Next.js (orange-app)`
@@ -57,6 +57,10 @@ Este projeto foi desenvolvido como parte de um processo seletivo. Consiste em um
     *(Observação: Se houver algum problema estranho ao iniciar, excluir a pasta `.next` e rodar `npm run dev` novamente pode ajudar, aconteceu bastante cmg).*
 
 O frontend estará  em `http://localhost:3000`.
+
+### ⚠️ **Usuário de Teste para Login no Frontend:**
+    * **Email/Usuário:** `teste@teste.com`
+    * **Senha:** `Teste123`
 
 
 ## 🛠️ Ferramentas Utilizadas
