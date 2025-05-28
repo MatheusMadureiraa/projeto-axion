@@ -7,20 +7,20 @@ Após criar as collections e publicar os itens no ***Strapi*** utilizei o ***Ins
 - Garantir funcionalidade para iniciar desenvolvimento front-end
 
 ## Testes GET na rota */comidas*
-<img src="../assets/comidas-test.png" alt="Teste GET na rota comidas" width="70%">
+<img src="../assets-markdown/comidas-test.png" alt="Teste GET na rota comidas" width="70%">
 
 ## Testes GET na rota */pessoas*
-<img src="../assets/pessoas-test.png" alt="Teste GET na rota pessoas" width="70%">
+<img src="../assets-markdown/pessoas-test.png" alt="Teste GET na rota pessoas" width="70%">
 
 ## Testes GET na rota */locais*
-<img src="../assets/locais-test.png" alt="Teste GET na rota locais" width="70%">
+<img src="../assets-markdown/locais-test.png" alt="Teste GET na rota locais" width="70%">
 
 
 ### Testando se GET/ID funciona também (já que permiti findOne no *Strapi*)
-<img src="../assets/locaisById-test.png" alt="Teste GET/id na rota locais" width="70%">
+<img src="../assets-markdown/locaisById-test.png" alt="Teste GET/id na rota locais" width="70%">
 
 ### Testando se outros tipos de requisições não são aceitas (é o esperado)
-<img src="../assets/post-test.png" alt="Teste POST na rota locais" width="70%">
+<img src="../assets-markdown/post-test.png" alt="Teste POST na rota locais" width="70%">
 
 #### Conclusão
 A api faz o que é esperado, permitindo acesso a GET para users logados e bloqueando outros tipos de rotas (como o POST testado acima).
