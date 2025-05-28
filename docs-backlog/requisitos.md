@@ -23,16 +23,15 @@
 | RNF001  | Estrutura organizada e clara das pastas no front-end                     |
 | RNF002  | Fidelidade ao layout do prototipo passado                                |
 | RNF003  | Responsividade da pag.                                                   |
-| RNF004  | extra - Tema escuro/claro (switch de tema)                               |
-| RNF005  | extra - Uso de biblioteca de componentes (Tailwind)                      |
+| RNF004  | Utilizar cores especificadass pela Axion no GitHub                       |
+| RNF005  | extra - Mudar cores de links e adicionar interações com mouse            |
 | RNF006  | extra - Animações (fade nos cards ou transições na pagina)               |
 | RNF007  | Componentes simples e enxutos do React                                   |
-| RNF008  | Utilizar cores especificadass pela Axion no GitHub                       |
 
 
 
 ## Prioridade dos Requisitos
 > ℹ️ Matriz de Einsenhower que criei para me organizar no *Miro*
 
-<img src="../assets/matriz-eisenhower.png" alt="matriz de priorizacao" align="center" width="70%">
+<img src="../assets-markdown/matriz-eisenhower.png" alt="matriz de priorizacao" align="center" width="70%">
 
